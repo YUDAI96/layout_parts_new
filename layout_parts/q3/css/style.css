@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+.main_table {
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.main_table th {
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  padding: 10px;
+  border-collapse: collapse;
+  border: solid #dedede 1px;
+}
+
+.main_table td {
+  font-size: 16px;
+  line-height: 22px;
+  border-collapse: collapse;
+  border: solid #dedede 1px;
+}
+
+.main_table tbody tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+.main_table tbody tr:last-child {
+  border-top: dashed #000 2px;
+}
 /* 回答はここに書いてね */
