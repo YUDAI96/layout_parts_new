@@ -2,21 +2,21 @@
 
 /* 回答はここに書いてね */
 
+.text {
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+}
+
 .left_box {
   text-align: center;
 }
 
-.left_text {
-  background-color: #e6f2ff;
+.left_box .text {
   display: inline-block;
-  width: 90px;
-  padding: 10px 0;
 }
 
-.right_text {
-  background-color: #e6f2ff;
-  padding: 10px 0;
-  width: 90px;
+.right_box .text {
   margin: 0 auto;
   text-align: center;
 }

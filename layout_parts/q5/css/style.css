@@ -69,6 +69,13 @@
   z-index: 7;
 }
 
+.box_8 {
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+
 .box_8::before {
   content: "";
   width: 20px;
@@ -77,13 +84,6 @@
   position: absolute;
   top: 0px;
   right: 0px;
-}
-
-.box_8 {
-  background-color: #de70cf;
-  top: 120px;
-  left: 120px;
-  z-index: 8;
 }
 
 .box_9 {

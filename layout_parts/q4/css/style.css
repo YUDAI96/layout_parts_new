@@ -12,10 +12,11 @@
   display: table;
   width: 100%;
   text-align: center;
+  margin-top: 20px;
 }
 
 .band:first-child {
-  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .cell {
@@ -27,29 +28,29 @@
   width: fit-content;
 }
 
-.band:first-child .left {
+.orange {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.band:first-child .center{
+.pink{
   background-color: #e0abd9;
 }
 
-.band:first-child .right {
+.blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.band:last-child .left {
+.yellow {
   background-color: #e5d32e;
 }
 
-.band:last-child .center {
+.red {
   background-color: #ec8f9a;
 }
 
-.band:last-child .right {
+.green {
   width: 500px;
   background-color: #8fdcad;
 }
